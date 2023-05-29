@@ -11,13 +11,19 @@ html{
 body{
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
+    &.fijar-body{
+        overflow-y: hidden;
+    }
+    &.body-scroll{
+        padding-top: 86px;
+    }
 }
 p{
     font-size: 2rem;
     color: v.$negro;
     line-height: 1.5;
 }
-.contenendor{
+.contenedor{
     width: 95%;
     max-width: 120rem;
     margin: 0 auto;
@@ -39,5 +45,7 @@ h3{
 }
 img{
     max-width: 100%;
+    width: 100%;
     display: block;
+    height: auto;
 }

@@ -3,6 +3,12 @@
 
 .header{
 background-color: v.$verde;
+    &.fijo{
+        top: 0;
+        position:fixed;
+        width: 100%;
+        box-shadow: .3rem .3rem .3rem rgba(0,0,0,.5);
+    }
     h1{
         color: v.$blanco;
         text-align: center;
